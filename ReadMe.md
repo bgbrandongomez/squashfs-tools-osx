@@ -4,7 +4,7 @@ It is able to be cross-compiled for Mojave 10.14.2 - OSX.
 
 This is the debian patched version of the source code. I used the command `apt-get source squashfs-tools` to download the source and apply the patches. You can download the sources manually using [Debian's CDN](http://cdn-fastly.deb.debian.org/debian/pool/main/s/squashfs-tools/).
 
-The copyright is GPL-2 as seen in (the license file)(LICENSE).
+The copyright is GPL-2 as seen in [the license file](LICENSE).
 
 I used sites such as [the OpenViewMobile blog](https://www.openviewmobile.com/2015/10/13/build-squashfs-tools-for-mac-os-x/) and [sigwait's](http://man7.org/linux/man-pages/man3/sigwait.3.html), [sigwaitinfo's](http://man7.org/linux/man-pages/man2/sigwaitinfo.2.html), and [sigtimedwait's](http://man7.org/linux/man-pages/man2/sigtimedwait.2.html) man pages to help me figure out how to modify the source code.
 
